@@ -1,0 +1,639 @@
+@font-face {
+  font-family: f1;
+  src: url(/fonts/e3t4euO8T-267oIAQAu6jDQyK3nbivNm4I81PZQ.woff2);
+}
+@font-face {
+  font-family: f2;
+  src: url(/fonts/e3t4euO8T-267oIAQAu6jDQyK3nVivNm4I81.woff2);
+}
+@font-face {
+  font-family: f3;
+  src: url(/fonts/fa-solid-900.woff2);
+}
+@font-face {
+  font-family: f4;
+  src: url(/fonts/rP2Hp2yn6lkG50LoCZOIHTWEBlw.woff2);
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+}
+
+main {
+  width: 100%;
+  overflow-x: hidden;
+}
+main section.page1 {
+  height: 100vh;
+  width: 100%;
+  background: url(/media/bg.jpeg) no-repeat center center/cover;
+}
+main section.page1 header {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+main section.page1 header .top {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+main section.page1 header .bottom {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 1.5rem;
+  z-index: 10;
+}
+main section.page1 header .bottom .home {
+  position: relative;
+}
+main section.page1 header .bottom .home .m1 {
+  width: 10rem;
+  height: 2.5rem;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+main section.page1 header .bottom .home a {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-decoration: none;
+  color: #fff;
+  font-size: 1rem;
+  font-family: f2;
+  text-shadow: 1.5px 1.5px 0 #ff3c00;
+}
+main section.page1 header .bottom .home .sh-1 {
+  position: absolute;
+  width: 2rem;
+  height: 1.5rem;
+  top: -1.5rem;
+  -o-object-fit: cover;
+     object-fit: cover;
+  left: 1vw;
+}
+main section.page1 header .bottom .home .sh-2 {
+  position: absolute;
+  width: 2rem;
+  height: 1.5rem;
+  top: -1.5rem;
+  -o-object-fit: cover;
+     object-fit: cover;
+  right: 1vw;
+}
+main section.page1 header .bottom .tl {
+  position: relative;
+}
+main section.page1 header .bottom .tl .m2 {
+  width: 10rem;
+  height: 2.5rem;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+main section.page1 header .bottom .tl a {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-decoration: none;
+  color: #fff;
+  font-size: 1rem;
+  font-family: f2;
+  text-shadow: 1.5px 1.5px 0 #ff3c00;
+}
+main section.page1 header .bottom .tl .st-1 {
+  position: absolute;
+  width: 2rem;
+  height: 1.5rem;
+  top: -1.5rem;
+  -o-object-fit: cover;
+     object-fit: cover;
+  left: 1vw;
+}
+main section.page1 header .bottom .tl .st-2 {
+  position: absolute;
+  width: 2rem;
+  height: 1.5rem;
+  top: -1.5rem;
+  -o-object-fit: cover;
+     object-fit: cover;
+  right: 1vw;
+}
+main section.page1 header .bottom .guests {
+  position: relative;
+}
+main section.page1 header .bottom .guests .m3 {
+  width: 10rem;
+  height: 2.5rem;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+main section.page1 header .bottom .guests a {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-decoration: none;
+  color: #fff;
+  font-size: 1rem;
+  font-family: f2;
+  text-shadow: 1.5px 1.5px 0 #ff3c00;
+}
+main section.page1 header .bottom .guests .sg-1 {
+  position: absolute;
+  width: 2rem;
+  height: 1.5rem;
+  top: -1.5rem;
+  -o-object-fit: cover;
+     object-fit: cover;
+  left: 1vw;
+}
+main section.page1 header .bottom .guests .sg-2 {
+  position: absolute;
+  width: 2rem;
+  height: 1.5rem;
+  top: -1.5rem;
+  -o-object-fit: cover;
+     object-fit: cover;
+  right: 1vw;
+}
+main section.page1 header .bottom .sponsors {
+  position: relative;
+}
+main section.page1 header .bottom .sponsors .m4 {
+  width: 10rem;
+  height: 2.5rem;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+main section.page1 header .bottom .sponsors a {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-decoration: none;
+  color: #fff;
+  font-size: 1rem;
+  font-family: f2;
+  text-shadow: 1.5px 1.5px 0 #ff3c00;
+}
+main section.page1 header .bottom .sponsors .ss-1 {
+  position: absolute;
+  width: 2rem;
+  height: 1.5rem;
+  top: -1.5rem;
+  -o-object-fit: cover;
+     object-fit: cover;
+  left: 1vw;
+}
+main section.page1 header .bottom .sponsors .ss-2 {
+  position: absolute;
+  width: 2rem;
+  height: 1.5rem;
+  top: -1.5rem;
+  -o-object-fit: cover;
+     object-fit: cover;
+  right: 1vw;
+}
+main section.page1 header .bottom .faq {
+  position: relative;
+}
+main section.page1 header .bottom .faq .m5 {
+  width: 10rem;
+  height: 2.5rem;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+main section.page1 header .bottom .faq a {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-decoration: none;
+  color: #fff;
+  font-size: 1rem;
+  font-family: f2;
+  text-shadow: 1.5px 1.5px 0 #ff3c00;
+}
+main section.page1 header .bottom .faq .sf-1 {
+  position: absolute;
+  width: 2rem;
+  height: 1.5rem;
+  top: -1.5rem;
+  -o-object-fit: cover;
+     object-fit: cover;
+  left: 1vw;
+}
+main section.page1 header .bottom .faq .sf-2 {
+  position: absolute;
+  width: 2rem;
+  height: 1.5rem;
+  top: -1.5rem;
+  -o-object-fit: cover;
+     object-fit: cover;
+  right: 1vw;
+}
+main section.page1 header .bottom .contact {
+  position: relative;
+}
+main section.page1 header .bottom .contact .m6 {
+  width: 10rem;
+  height: 2.5rem;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+main section.page1 header .bottom .contact a {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-decoration: none;
+  color: #fff;
+  font-size: 1rem;
+  font-family: f2;
+  text-shadow: 1.5px 1.5px 0 #ff3c00;
+}
+main section.page1 header .bottom .contact .sc-1 {
+  position: absolute;
+  width: 2rem;
+  height: 1.5rem;
+  top: -1.5rem;
+  -o-object-fit: cover;
+     object-fit: cover;
+  left: 1vw;
+}
+main section.page1 header .bottom .contact .sc-2 {
+  position: absolute;
+  width: 2rem;
+  height: 1.5rem;
+  top: -1.5rem;
+  -o-object-fit: cover;
+     object-fit: cover;
+  right: 1vw;
+}
+main section.page1 header .lalten-container {
+  position: absolute;
+  top: 0rem;
+  left: 1rem;
+}
+main section.page1 header .lalten-container img {
+  width: 12%;
+  animation: swing 3s ease-in-out infinite;
+  transform-origin: 50% 0%;
+}
+main section.page1 .hero {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+}
+main section.page1 .hero .top {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: -2rem;
+}
+main section.page1 .hero .top img {
+  width: 60%;
+}
+main section.page1 .hero .center {
+  width: 30rem;
+  height: 10rem;
+  margin-top: -10%;
+  background: url(/media/timer.png);
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  gap: 1rem;
+  border: 2px solid white;
+}
+main section.page1 .hero .center .text {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+  color: black;
+}
+main section.page1 .hero .center .text h3 {
+  font-family: f2;
+  text-shadow: 1.5px 1.5px 0 #ff3c00;
+  color: white;
+  font-size: 1.5rem;
+}
+main section.page1 .hero .center .bottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+main section.page1 .hero .center .bottom .elem {
+  height: 4rem;
+  width: 4.5rem;
+  background-color: rgba(255, 255, 255, 0.394);
+  backdrop-filter: blur(4px);
+  border: 2px solid white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  border-radius: 4px;
+  font-family: f2;
+  font-size: 0.7rem;
+}
+main section.page2 {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  align-items: center;
+  padding: 4rem;
+  background: url(/media/bg-2.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  position: relative;
+}
+main section.page2 .top h1 {
+  font-size: 3rem;
+  font-family: f2;
+  text-shadow: 1.5px 1.5px 0 #ff3c00;
+}
+main section.page2 .center {
+  width: 100%;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+main section.page2 .center .p1 {
+  width: 35%;
+  margin-left: -40%;
+  margin-top: -3%;
+}
+main section.page2 .center .p2 {
+  width: 35%;
+  margin-right: -40%;
+  margin-top: -4.5%;
+}
+main section.page2 .center .c {
+  width: 55%;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  z-index: 10;
+}
+main section.page2 .center .c p {
+  width: 100%;
+  font-size: 1.5rem;
+  background-color: rgba(255, 255, 255, 0.312);
+  backdrop-filter: blur(4px);
+  padding: 3rem 2rem;
+  border-radius: 10px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+main section.page2 .moving-img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: -moz-fit-content;
+  width: fit-content;
+  z-index: 5;
+  animation: move 5s ease-in-out infinite;
+}
+main section.page2 .moving-img img {
+  width: 80%;
+  animation: move 5s ease-in-out infinite alternate;
+}
+main section.state {
+  width: 100%;
+  padding: 1rem;
+  position: relative;
+  background: url(/media/i7.jpg) no-repeat bottom center/cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+main section.state h2 {
+  font-family: f2;
+  color: white;
+  text-shadow: 1.5px 1.5px 0 #ff3c00;
+  text-align: center;
+  font-size: 2rem;
+  background-color: rgba(255, 255, 255, 0.312);
+  backdrop-filter: blur(4px);
+  padding: 1rem 1.5rem;
+  border-radius: 10px;
+  text-align: center;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+main section.state .i2 {
+  position: absolute;
+  width: 15rem;
+  top: -9rem;
+  right: 13rem;
+  transform: rotate(90deg);
+}
+main section.state .state {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 4rem;
+}
+main section.state .state .elem {
+  width: 15rem;
+  height: 7rem;
+  background: url("/media/mail.png") no-repeat center center/cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.3s ease;
+  cursor: pointer;
+}
+main section.state .state .elem:hover {
+  transform: scale(1.05);
+}
+main section.state .state .elem h3 {
+  font-family: f2;
+  color: white;
+  text-shadow: 1.5px 1.5px 0 #000000;
+  text-align: center;
+  font-size: 1rem;
+  backdrop-filter: blur(4px);
+  padding: 0.5rem 1rem;
+  border-radius: 10px;
+  margin-top: 1rem;
+}
+main section.state .state .elem h3 span {
+  font-size: 0.8rem;
+}
+main section.page3 {
+  height: 130vh;
+  width: 100%;
+  background: url(/media/b3.png) no-repeat center center/cover;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+main section.page3 h1 {
+  font-family: f2;
+  color: white;
+  text-shadow: 1.5px 1.5px 0 #ff3c00;
+  text-align: center;
+  font-size: 3rem;
+  text-transform: uppercase;
+  text-align: center;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: 2rem auto;
+  z-index: 10;
+  margin-top: 3rem;
+}
+main section.page3 p {
+  font-family: f4;
+  color: white;
+  text-shadow: 1.5px 1.5px 0 #ff3c00;
+  text-align: center;
+  font-size: 2.5rem;
+  border-radius: 10px;
+  width: 50%;
+  margin: 0 auto;
+  z-index: 10;
+}
+main section.page3 .cover {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.766);
+  z-index: 1;
+}
+main section.page3 .name-board {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding: 0rem 2.2rem;
+  gap: 6rem;
+}
+main section.page3 .name-board .b1 {
+  width: 20%;
+  margin-top: 2rem;
+  z-index: 10;
+}
+main section.page3 .name-board .b2 {
+  width: 20%;
+  margin-left: 0.6%;
+  margin-top: 2rem;
+  z-index: 10;
+}
+main section.page3 .name-board .b3 {
+  width: 20%;
+  margin-left: -1%;
+  margin-top: 2rem;
+  z-index: 10;
+}
+main section.page3 .name-board .b4 {
+  width: 20%;
+  margin-top: 2rem;
+  z-index: 10;
+}
+main section.page3 .patri {
+  width: 100%;
+  z-index: 10;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  margin-top: 15rem;
+}
+main section.page3 .patri img {
+  width: 7%;
+}
+main section.page3 .patri .train1 {
+  position: absolute;
+  top: -9vw;
+  left: 2%;
+  width: 20%;
+  z-index: 11;
+  transition: transform 0.3s ease;
+  cursor: pointer;
+}
+main section.page3 .patri .train1:hover {
+  transform: scale(1.05);
+}
+main section.page3 .patri .train2 {
+  position: absolute;
+  top: -9.5vw;
+  left: 28%;
+  width: 20%;
+  z-index: 11;
+  transition: transform 0.3s ease;
+  cursor: pointer;
+}
+main section.page3 .patri .train2:hover {
+  transform: scale(1.05);
+}
+main section.page3 .patri .train3 {
+  position: absolute;
+  top: -9vw;
+  left: 53%;
+  width: 20%;
+  z-index: 11;
+  transition: transform 0.3s ease;
+  cursor: pointer;
+}
+main section.page3 .patri .train3:hover {
+  transform: scale(1.05);
+}
+main section.page3 .patri .train4 {
+  position: absolute;
+  top: -9.5vw;
+  left: 78%;
+  width: 20%;
+  z-index: 11;
+  transition: transform 0.3s ease;
+  cursor: pointer;
+}
+main section.page3 .patri .train4:hover {
+  transform: scale(1.05);
+}
+
+@keyframes swing {
+  0% {
+    transform: rotate(-12deg);
+  }
+  50% {
+    transform: rotate(12deg);
+  }
+  100% {
+    transform: rotate(-12deg);
+  }
+}
+@keyframes move {
+  0% {
+    transform: translate(-50%, -50%) translateX(0);
+  }
+  50% {
+    transform: translate(-50%, -50%) translateX(200px);
+  }
+}/*# sourceMappingURL=style.css.map */
