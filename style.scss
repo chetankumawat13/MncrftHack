@@ -498,7 +498,7 @@ main{
 
    }
    section.page3{
-    height: 130vh;
+    height: 140vh;
     width: 100%;
     background: url(/media/b3.png) no-repeat center center/cover;
     position: relative;
@@ -573,6 +573,30 @@ main{
             margin-top: 2rem;
             z-index: 10;
         }
+        .b5{
+            width: 20%;
+            // margin-left: -1%;
+            margin-top: 2rem;
+            z-index: 10;
+        }
+        .b6{
+            width: 20%;
+            // margin-left: -1%;
+            margin-top: 2rem;
+            z-index: 10;
+        }
+        .b7{
+            width: 20%;
+            // margin-left: -1%;
+            margin-top: 2rem;
+            z-index: 10;
+        }
+        .b8{
+            width: 20%;
+            // margin-left: -1%;
+            margin-top: 2rem;
+            z-index: 10;
+        }
     }
     .patri{
         width: 100%;
@@ -638,6 +662,86 @@ main{
         }
     }
    }
+   section.page4{
+    height: 100vh;
+    width: 100%;
+    background: url(/media/bg4.png) no-repeat center center/cover;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+
+    .cover{
+        height: 100%;
+        width: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        background-color: rgba(0, 0, 0, 0.766);
+        z-index: 1;
+    }
+
+    h1{
+        font-family: f2;
+        color: white;
+        text-shadow: 1.5px 1.5px 0 #ff3c00;
+        text-align: center;
+        font-size: 3.5rem;
+        text-transform: uppercase;
+        text-align: center;
+        width: fit-content;
+        margin-top: 4rem;
+        z-index: 10;
+    }
+    p{
+        font-family: f4;
+        color: white;
+        text-shadow: 1.5px 1.5px 0 #ff3c00;
+        text-align: center;
+        font-size: 2.5rem;
+        border-radius: 10px;
+        width: 50%;
+        margin: 0 auto;
+        z-index: 10;
+        margin-top: 1rem;
+    }
+    .cards{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        margin-top: 8rem;
+        position: relative;
+
+        .card{
+            width: 18%;
+            transition: transform 0.3s ease;
+            z-index: 10;
+            cursor: pointer;
+            animation: move2 3s ease-in-out infinite alternate;
+
+            &:hover{
+                transform: scale(1.05);
+            }
+        }
+        .be{
+            width: 100%;
+            position: absolute;
+            height: 2rem;
+            top: -20%;
+            z-index: 10;
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+
+            .bee{
+                width: 7%;
+                margin-top: -1rem;
+                animation: move2 3s ease-in-out infinite alternate;
+            }
+        }
+    }
+   }
 }
 
 @keyframes swing {
@@ -651,4 +755,8 @@ main{
     50%  { transform: translate(-50%, -50%) translateX(200px); }
 }
 
+@keyframes move2 {
+    0%   { transform: translateY(0); }
+    50%  { transform: translateY(50px); }
+}
 

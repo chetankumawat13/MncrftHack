@@ -486,7 +486,7 @@ main section.state .state .elem h3 span {
   font-size: 0.8rem;
 }
 main section.page3 {
-  height: 130vh;
+  height: 140vh;
   width: 100%;
   background: url(/media/b3.png) no-repeat center center/cover;
   position: relative;
@@ -557,6 +557,26 @@ main section.page3 .name-board .b4 {
   margin-top: 2rem;
   z-index: 10;
 }
+main section.page3 .name-board .b5 {
+  width: 20%;
+  margin-top: 2rem;
+  z-index: 10;
+}
+main section.page3 .name-board .b6 {
+  width: 20%;
+  margin-top: 2rem;
+  z-index: 10;
+}
+main section.page3 .name-board .b7 {
+  width: 20%;
+  margin-top: 2rem;
+  z-index: 10;
+}
+main section.page3 .name-board .b8 {
+  width: 20%;
+  margin-top: 2rem;
+  z-index: 10;
+}
 main section.page3 .patri {
   width: 100%;
   z-index: 10;
@@ -617,6 +637,82 @@ main section.page3 .patri .train4 {
 main section.page3 .patri .train4:hover {
   transform: scale(1.05);
 }
+main section.page4 {
+  height: 100vh;
+  width: 100%;
+  background: url(/media/bg4.png) no-repeat center center/cover;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+}
+main section.page4 .cover {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.766);
+  z-index: 1;
+}
+main section.page4 h1 {
+  font-family: f2;
+  color: white;
+  text-shadow: 1.5px 1.5px 0 #ff3c00;
+  text-align: center;
+  font-size: 3.5rem;
+  text-transform: uppercase;
+  text-align: center;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin-top: 4rem;
+  z-index: 10;
+}
+main section.page4 p {
+  font-family: f4;
+  color: white;
+  text-shadow: 1.5px 1.5px 0 #ff3c00;
+  text-align: center;
+  font-size: 2.5rem;
+  border-radius: 10px;
+  width: 50%;
+  margin: 0 auto;
+  z-index: 10;
+  margin-top: 1rem;
+}
+main section.page4 .cards {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-top: 8rem;
+  position: relative;
+}
+main section.page4 .cards .card {
+  width: 18%;
+  transition: transform 0.3s ease;
+  z-index: 10;
+  cursor: pointer;
+  animation: move2 3s ease-in-out infinite alternate;
+}
+main section.page4 .cards .card:hover {
+  transform: scale(1.05);
+}
+main section.page4 .cards .be {
+  width: 100%;
+  position: absolute;
+  height: 2rem;
+  top: -20%;
+  z-index: 10;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+main section.page4 .cards .be .bee {
+  width: 7%;
+  margin-top: -1rem;
+  animation: move2 3s ease-in-out infinite alternate;
+}
 
 @keyframes swing {
   0% {
@@ -635,5 +731,13 @@ main section.page3 .patri .train4:hover {
   }
   50% {
     transform: translate(-50%, -50%) translateX(200px);
+  }
+}
+@keyframes move2 {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(50px);
   }
 }/*# sourceMappingURL=style.css.map */
