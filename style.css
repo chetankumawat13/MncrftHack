@@ -919,16 +919,27 @@ main section.page6 p {
   }
 }
 section.spage1 {
-  height: 130vh;
+  height: 100vh;
   width: 100%;
-  background: url(/media/sponser.png) no-repeat center center/cover;
+  background: url(/media/sbg.jpg) no-repeat center center/cover;
   overflow: hidden;
+  position: relative;
+}
+section.spage1 .cover {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.766);
+  z-index: 1;
 }
 section.spage1 header {
   width: 100%;
   display: flex;
   flex-direction: column;
   position: relative;
+  z-index: 10;
 }
 section.spage1 header .top {
   width: 100%;
@@ -1181,4 +1192,1529 @@ section.spage1 header .lalten-container img {
   width: 12%;
   animation: swing 3s ease-in-out infinite;
   transform-origin: 50% 0%;
+}
+section.spage1 .hero {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+}
+section.spage1 .hero .top {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+section.spage1 .hero .top img {
+  width: 65%;
+  z-index: 10;
+}
+
+section.spage2 {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4rem;
+  padding: 4rem;
+  background: url(/media/sbg-2.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  position: relative;
+}
+section.spage2 .cover {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.766);
+  z-index: 1;
+}
+section.spage2 .cards {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4rem;
+  flex-wrap: wrap;
+  z-index: 10;
+}
+section.spage2 .cards img {
+  width: 18%;
+  transition: transform 0.3s ease;
+  cursor: pointer;
+}
+section.spage2 .cards img:hover {
+  transform: scale(1.05);
+}
+section.spage2 h1 {
+  font-size: 3rem;
+  font-family: f2;
+  text-shadow: 1.5px 1.5px 0 #ff3c00;
+  color: white;
+  z-index: 10;
+}
+
+section.gpage1 {
+  height: 100vh;
+  width: 100%;
+  background: url(/media/gbg.jpg) no-repeat center center/cover;
+  overflow: hidden;
+  position: relative;
+}
+section.gpage1 .cover {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.766);
+  z-index: 1;
+}
+section.gpage1 header {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  z-index: 10;
+}
+section.gpage1 header .top {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+section.gpage1 header .bottom {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 1.5rem;
+  z-index: 10;
+}
+section.gpage1 header .bottom .home {
+  position: relative;
+}
+section.gpage1 header .bottom .home .m1 {
+  width: 10rem;
+  height: 2.5rem;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+section.gpage1 header .bottom .home a {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-decoration: none;
+  color: #fff;
+  font-size: 1rem;
+  font-family: f2;
+  text-shadow: 1.5px 1.5px 0 #ff3c00;
+}
+section.gpage1 header .bottom .home .sh-1 {
+  position: absolute;
+  width: 2rem;
+  height: 1.5rem;
+  top: -1.5rem;
+  -o-object-fit: cover;
+     object-fit: cover;
+  left: 1vw;
+}
+section.gpage1 header .bottom .home .sh-2 {
+  position: absolute;
+  width: 2rem;
+  height: 1.5rem;
+  top: -1.5rem;
+  -o-object-fit: cover;
+     object-fit: cover;
+  right: 1vw;
+}
+section.gpage1 header .bottom .tl {
+  position: relative;
+}
+section.gpage1 header .bottom .tl .m2 {
+  width: 10rem;
+  height: 2.5rem;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+section.gpage1 header .bottom .tl a {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-decoration: none;
+  color: #fff;
+  font-size: 1rem;
+  font-family: f2;
+  text-shadow: 1.5px 1.5px 0 #ff3c00;
+}
+section.gpage1 header .bottom .tl .st-1 {
+  position: absolute;
+  width: 2rem;
+  height: 1.5rem;
+  top: -1.5rem;
+  -o-object-fit: cover;
+     object-fit: cover;
+  left: 1vw;
+}
+section.gpage1 header .bottom .tl .st-2 {
+  position: absolute;
+  width: 2rem;
+  height: 1.5rem;
+  top: -1.5rem;
+  -o-object-fit: cover;
+     object-fit: cover;
+  right: 1vw;
+}
+section.gpage1 header .bottom .guests {
+  position: relative;
+}
+section.gpage1 header .bottom .guests .m3 {
+  width: 10rem;
+  height: 2.5rem;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+section.gpage1 header .bottom .guests a {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-decoration: none;
+  color: #fff;
+  font-size: 1rem;
+  font-family: f2;
+  text-shadow: 1.5px 1.5px 0 #ff3c00;
+}
+section.gpage1 header .bottom .guests .sg-1 {
+  position: absolute;
+  width: 2rem;
+  height: 1.5rem;
+  top: -1.5rem;
+  -o-object-fit: cover;
+     object-fit: cover;
+  left: 1vw;
+}
+section.gpage1 header .bottom .guests .sg-2 {
+  position: absolute;
+  width: 2rem;
+  height: 1.5rem;
+  top: -1.5rem;
+  -o-object-fit: cover;
+     object-fit: cover;
+  right: 1vw;
+}
+section.gpage1 header .bottom .sponsors {
+  position: relative;
+}
+section.gpage1 header .bottom .sponsors .m4 {
+  width: 10rem;
+  height: 2.5rem;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+section.gpage1 header .bottom .sponsors a {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-decoration: none;
+  color: #fff;
+  font-size: 1rem;
+  font-family: f2;
+  text-shadow: 1.5px 1.5px 0 #ff3c00;
+}
+section.gpage1 header .bottom .sponsors .ss-1 {
+  position: absolute;
+  width: 2rem;
+  height: 1.5rem;
+  top: -1.5rem;
+  -o-object-fit: cover;
+     object-fit: cover;
+  left: 1vw;
+}
+section.gpage1 header .bottom .sponsors .ss-2 {
+  position: absolute;
+  width: 2rem;
+  height: 1.5rem;
+  top: -1.5rem;
+  -o-object-fit: cover;
+     object-fit: cover;
+  right: 1vw;
+}
+section.gpage1 header .bottom .faq {
+  position: relative;
+}
+section.gpage1 header .bottom .faq .m5 {
+  width: 10rem;
+  height: 2.5rem;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+section.gpage1 header .bottom .faq a {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-decoration: none;
+  color: #fff;
+  font-size: 1rem;
+  font-family: f2;
+  text-shadow: 1.5px 1.5px 0 #ff3c00;
+}
+section.gpage1 header .bottom .faq .sf-1 {
+  position: absolute;
+  width: 2rem;
+  height: 1.5rem;
+  top: -1.5rem;
+  -o-object-fit: cover;
+     object-fit: cover;
+  left: 1vw;
+}
+section.gpage1 header .bottom .faq .sf-2 {
+  position: absolute;
+  width: 2rem;
+  height: 1.5rem;
+  top: -1.5rem;
+  -o-object-fit: cover;
+     object-fit: cover;
+  right: 1vw;
+}
+section.gpage1 header .bottom .contact {
+  position: relative;
+}
+section.gpage1 header .bottom .contact .m6 {
+  width: 10rem;
+  height: 2.5rem;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+section.gpage1 header .bottom .contact a {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-decoration: none;
+  color: #fff;
+  font-size: 1rem;
+  font-family: f2;
+  text-shadow: 1.5px 1.5px 0 #ff3c00;
+}
+section.gpage1 header .bottom .contact .sc-1 {
+  position: absolute;
+  width: 2rem;
+  height: 1.5rem;
+  top: -1.5rem;
+  -o-object-fit: cover;
+     object-fit: cover;
+  left: 1vw;
+}
+section.gpage1 header .bottom .contact .sc-2 {
+  position: absolute;
+  width: 2rem;
+  height: 1.5rem;
+  top: -1.5rem;
+  -o-object-fit: cover;
+     object-fit: cover;
+  right: 1vw;
+}
+section.gpage1 header .lalten-container {
+  position: absolute;
+  top: 0rem;
+  left: 1rem;
+}
+section.gpage1 header .lalten-container img {
+  width: 12%;
+  animation: swing 3s ease-in-out infinite;
+  transform-origin: 50% 0%;
+}
+section.gpage1 .hero {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+}
+section.gpage1 .hero .top {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+section.gpage1 .hero .top img {
+  width: 65%;
+  z-index: 10;
+}
+
+section.gpage2 {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4rem;
+  padding: 4rem;
+  background: url(/media/gbg-3.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  position: relative;
+}
+section.gpage2 .cover {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.25);
+  z-index: 1;
+}
+section.gpage2 .cards {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4rem;
+  flex-wrap: wrap;
+  z-index: 10;
+}
+section.gpage2 .cards img {
+  width: 18%;
+  transition: transform 0.3s ease;
+  cursor: pointer;
+}
+section.gpage2 .cards img:hover {
+  transform: scale(1.05);
+}
+section.gpage2 h1 {
+  font-size: 3rem;
+  font-family: f2;
+  text-shadow: 1.5px 1.5px 0 #ff3c00;
+  color: white;
+  z-index: 10;
+}
+
+section.gpage3 {
+  width: 100%;
+  height: 100vh;
+  background: url(/media/guest-bg.jpg) no-repeat center center/cover;
+  display: flex;
+  align-items: center;
+  position: relative;
+  flex-direction: column;
+}
+section.gpage3 .cover {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.766);
+  z-index: 1;
+}
+section.gpage3 h1 {
+  font-family: f2;
+  color: white;
+  text-shadow: 1.5px 1.5px 0 #ff3c00;
+  text-align: center;
+  font-size: 3rem;
+  text-transform: uppercase;
+  text-align: center;
+  width: -moz-fit-content;
+  width: fit-content;
+  z-index: 10;
+  margin-top: 4rem;
+}
+section.gpage3 .card {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  margin-top: 6rem;
+  z-index: 10;
+}
+section.gpage3 .card img {
+  width: 20%;
+  transition: transform 0.3s ease;
+  cursor: pointer;
+  border-radius: 1rem;
+}
+section.gpage3 .card img:hover {
+  transform: scale(1.05);
+}
+
+section.fpage1 {
+  height: 100vh;
+  width: 100%;
+  background: url(/media/faqbg.jpg) no-repeat center center/cover;
+  overflow: hidden;
+  position: relative;
+}
+section.fpage1 .cover {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.766);
+  z-index: 1;
+}
+section.fpage1 header {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  z-index: 10;
+}
+section.fpage1 header .top {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+section.fpage1 header .bottom {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 1.5rem;
+  z-index: 10;
+}
+section.fpage1 header .bottom .home {
+  position: relative;
+}
+section.fpage1 header .bottom .home .m1 {
+  width: 10rem;
+  height: 2.5rem;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+section.fpage1 header .bottom .home a {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-decoration: none;
+  color: #fff;
+  font-size: 1rem;
+  font-family: f2;
+  text-shadow: 1.5px 1.5px 0 #ff3c00;
+}
+section.fpage1 header .bottom .home .sh-1 {
+  position: absolute;
+  width: 2rem;
+  height: 1.5rem;
+  top: -1.5rem;
+  -o-object-fit: cover;
+     object-fit: cover;
+  left: 1vw;
+}
+section.fpage1 header .bottom .home .sh-2 {
+  position: absolute;
+  width: 2rem;
+  height: 1.5rem;
+  top: -1.5rem;
+  -o-object-fit: cover;
+     object-fit: cover;
+  right: 1vw;
+}
+section.fpage1 header .bottom .tl {
+  position: relative;
+}
+section.fpage1 header .bottom .tl .m2 {
+  width: 10rem;
+  height: 2.5rem;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+section.fpage1 header .bottom .tl a {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-decoration: none;
+  color: #fff;
+  font-size: 1rem;
+  font-family: f2;
+  text-shadow: 1.5px 1.5px 0 #ff3c00;
+}
+section.fpage1 header .bottom .tl .st-1 {
+  position: absolute;
+  width: 2rem;
+  height: 1.5rem;
+  top: -1.5rem;
+  -o-object-fit: cover;
+     object-fit: cover;
+  left: 1vw;
+}
+section.fpage1 header .bottom .tl .st-2 {
+  position: absolute;
+  width: 2rem;
+  height: 1.5rem;
+  top: -1.5rem;
+  -o-object-fit: cover;
+     object-fit: cover;
+  right: 1vw;
+}
+section.fpage1 header .bottom .guests {
+  position: relative;
+}
+section.fpage1 header .bottom .guests .m3 {
+  width: 10rem;
+  height: 2.5rem;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+section.fpage1 header .bottom .guests a {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-decoration: none;
+  color: #fff;
+  font-size: 1rem;
+  font-family: f2;
+  text-shadow: 1.5px 1.5px 0 #ff3c00;
+}
+section.fpage1 header .bottom .guests .sg-1 {
+  position: absolute;
+  width: 2rem;
+  height: 1.5rem;
+  top: -1.5rem;
+  -o-object-fit: cover;
+     object-fit: cover;
+  left: 1vw;
+}
+section.fpage1 header .bottom .guests .sg-2 {
+  position: absolute;
+  width: 2rem;
+  height: 1.5rem;
+  top: -1.5rem;
+  -o-object-fit: cover;
+     object-fit: cover;
+  right: 1vw;
+}
+section.fpage1 header .bottom .sponsors {
+  position: relative;
+}
+section.fpage1 header .bottom .sponsors .m4 {
+  width: 10rem;
+  height: 2.5rem;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+section.fpage1 header .bottom .sponsors a {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-decoration: none;
+  color: #fff;
+  font-size: 1rem;
+  font-family: f2;
+  text-shadow: 1.5px 1.5px 0 #ff3c00;
+}
+section.fpage1 header .bottom .sponsors .ss-1 {
+  position: absolute;
+  width: 2rem;
+  height: 1.5rem;
+  top: -1.5rem;
+  -o-object-fit: cover;
+     object-fit: cover;
+  left: 1vw;
+}
+section.fpage1 header .bottom .sponsors .ss-2 {
+  position: absolute;
+  width: 2rem;
+  height: 1.5rem;
+  top: -1.5rem;
+  -o-object-fit: cover;
+     object-fit: cover;
+  right: 1vw;
+}
+section.fpage1 header .bottom .faq {
+  position: relative;
+}
+section.fpage1 header .bottom .faq .m5 {
+  width: 10rem;
+  height: 2.5rem;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+section.fpage1 header .bottom .faq a {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-decoration: none;
+  color: #fff;
+  font-size: 1rem;
+  font-family: f2;
+  text-shadow: 1.5px 1.5px 0 #ff3c00;
+}
+section.fpage1 header .bottom .faq .sf-1 {
+  position: absolute;
+  width: 2rem;
+  height: 1.5rem;
+  top: -1.5rem;
+  -o-object-fit: cover;
+     object-fit: cover;
+  left: 1vw;
+}
+section.fpage1 header .bottom .faq .sf-2 {
+  position: absolute;
+  width: 2rem;
+  height: 1.5rem;
+  top: -1.5rem;
+  -o-object-fit: cover;
+     object-fit: cover;
+  right: 1vw;
+}
+section.fpage1 header .bottom .contact {
+  position: relative;
+}
+section.fpage1 header .bottom .contact .m6 {
+  width: 10rem;
+  height: 2.5rem;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+section.fpage1 header .bottom .contact a {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-decoration: none;
+  color: #fff;
+  font-size: 1rem;
+  font-family: f2;
+  text-shadow: 1.5px 1.5px 0 #ff3c00;
+}
+section.fpage1 header .bottom .contact .sc-1 {
+  position: absolute;
+  width: 2rem;
+  height: 1.5rem;
+  top: -1.5rem;
+  -o-object-fit: cover;
+     object-fit: cover;
+  left: 1vw;
+}
+section.fpage1 header .bottom .contact .sc-2 {
+  position: absolute;
+  width: 2rem;
+  height: 1.5rem;
+  top: -1.5rem;
+  -o-object-fit: cover;
+     object-fit: cover;
+  right: 1vw;
+}
+section.fpage1 header .lalten-container {
+  position: absolute;
+  top: 0rem;
+  left: 1rem;
+}
+section.fpage1 header .lalten-container img {
+  width: 12%;
+  animation: swing 3s ease-in-out infinite;
+  transform-origin: 50% 0%;
+}
+section.fpage1 .hero {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+}
+section.fpage1 .hero .top {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+section.fpage1 .hero .top img {
+  width: 55%;
+  z-index: 10;
+  margin-top: -3rem;
+}
+
+section.fpage2 {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4rem;
+  padding: 4rem;
+  background: url(/media/faqbg-2.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  position: relative;
+}
+section.fpage2 .cover {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.766);
+  z-index: 1;
+}
+section.fpage2 h1 {
+  font-size: 3rem;
+  font-family: f2;
+  text-shadow: 1.5px 1.5px 0 #ff3c00;
+  color: white;
+  z-index: 10;
+}
+section.fpage2 .faq-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  width: 80%;
+  z-index: 10;
+  color: white;
+}
+section.fpage2 .faq-card .f {
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.312);
+  backdrop-filter: blur(4px);
+  padding: 1rem;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  cursor: pointer;
+}
+section.fpage2 .faq-card .f h4 {
+  font-family: f2;
+  color: white;
+  text-shadow: 1.5px 1.5px 0 #000000;
+  font-size: 1.1rem;
+}
+section.fpage2 .faq-card .f p {
+  font-family: f2;
+  color: white;
+  text-shadow: 1.5px 1.5px 0 #000000;
+  font-size: 0.7rem;
+  line-height: 1.2rem;
+  display: none;
+}
+
+section.tpage1 {
+  height: 100vh;
+  width: 100%;
+  background: url(/media/timelinebg.jpg) no-repeat center center/cover;
+  overflow: hidden;
+  position: relative;
+}
+section.tpage1 .cover {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.766);
+  z-index: 1;
+}
+section.tpage1 header {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  z-index: 10;
+}
+section.tpage1 header .top {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+section.tpage1 header .bottom {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 1.5rem;
+  z-index: 10;
+}
+section.tpage1 header .bottom .home {
+  position: relative;
+}
+section.tpage1 header .bottom .home .m1 {
+  width: 10rem;
+  height: 2.5rem;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+section.tpage1 header .bottom .home a {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-decoration: none;
+  color: #fff;
+  font-size: 1rem;
+  font-family: f2;
+  text-shadow: 1.5px 1.5px 0 #ff3c00;
+}
+section.tpage1 header .bottom .home .sh-1 {
+  position: absolute;
+  width: 2rem;
+  height: 1.5rem;
+  top: -1.5rem;
+  -o-object-fit: cover;
+     object-fit: cover;
+  left: 1vw;
+}
+section.tpage1 header .bottom .home .sh-2 {
+  position: absolute;
+  width: 2rem;
+  height: 1.5rem;
+  top: -1.5rem;
+  -o-object-fit: cover;
+     object-fit: cover;
+  right: 1vw;
+}
+section.tpage1 header .bottom .tl {
+  position: relative;
+}
+section.tpage1 header .bottom .tl .m2 {
+  width: 10rem;
+  height: 2.5rem;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+section.tpage1 header .bottom .tl a {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-decoration: none;
+  color: #fff;
+  font-size: 1rem;
+  font-family: f2;
+  text-shadow: 1.5px 1.5px 0 #ff3c00;
+}
+section.tpage1 header .bottom .tl .st-1 {
+  position: absolute;
+  width: 2rem;
+  height: 1.5rem;
+  top: -1.5rem;
+  -o-object-fit: cover;
+     object-fit: cover;
+  left: 1vw;
+}
+section.tpage1 header .bottom .tl .st-2 {
+  position: absolute;
+  width: 2rem;
+  height: 1.5rem;
+  top: -1.5rem;
+  -o-object-fit: cover;
+     object-fit: cover;
+  right: 1vw;
+}
+section.tpage1 header .bottom .guests {
+  position: relative;
+}
+section.tpage1 header .bottom .guests .m3 {
+  width: 10rem;
+  height: 2.5rem;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+section.tpage1 header .bottom .guests a {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-decoration: none;
+  color: #fff;
+  font-size: 1rem;
+  font-family: f2;
+  text-shadow: 1.5px 1.5px 0 #ff3c00;
+}
+section.tpage1 header .bottom .guests .sg-1 {
+  position: absolute;
+  width: 2rem;
+  height: 1.5rem;
+  top: -1.5rem;
+  -o-object-fit: cover;
+     object-fit: cover;
+  left: 1vw;
+}
+section.tpage1 header .bottom .guests .sg-2 {
+  position: absolute;
+  width: 2rem;
+  height: 1.5rem;
+  top: -1.5rem;
+  -o-object-fit: cover;
+     object-fit: cover;
+  right: 1vw;
+}
+section.tpage1 header .bottom .sponsors {
+  position: relative;
+}
+section.tpage1 header .bottom .sponsors .m4 {
+  width: 10rem;
+  height: 2.5rem;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+section.tpage1 header .bottom .sponsors a {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-decoration: none;
+  color: #fff;
+  font-size: 1rem;
+  font-family: f2;
+  text-shadow: 1.5px 1.5px 0 #ff3c00;
+}
+section.tpage1 header .bottom .sponsors .ss-1 {
+  position: absolute;
+  width: 2rem;
+  height: 1.5rem;
+  top: -1.5rem;
+  -o-object-fit: cover;
+     object-fit: cover;
+  left: 1vw;
+}
+section.tpage1 header .bottom .sponsors .ss-2 {
+  position: absolute;
+  width: 2rem;
+  height: 1.5rem;
+  top: -1.5rem;
+  -o-object-fit: cover;
+     object-fit: cover;
+  right: 1vw;
+}
+section.tpage1 header .bottom .faq {
+  position: relative;
+}
+section.tpage1 header .bottom .faq .m5 {
+  width: 10rem;
+  height: 2.5rem;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+section.tpage1 header .bottom .faq a {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-decoration: none;
+  color: #fff;
+  font-size: 1rem;
+  font-family: f2;
+  text-shadow: 1.5px 1.5px 0 #ff3c00;
+}
+section.tpage1 header .bottom .faq .sf-1 {
+  position: absolute;
+  width: 2rem;
+  height: 1.5rem;
+  top: -1.5rem;
+  -o-object-fit: cover;
+     object-fit: cover;
+  left: 1vw;
+}
+section.tpage1 header .bottom .faq .sf-2 {
+  position: absolute;
+  width: 2rem;
+  height: 1.5rem;
+  top: -1.5rem;
+  -o-object-fit: cover;
+     object-fit: cover;
+  right: 1vw;
+}
+section.tpage1 header .bottom .contact {
+  position: relative;
+}
+section.tpage1 header .bottom .contact .m6 {
+  width: 10rem;
+  height: 2.5rem;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+section.tpage1 header .bottom .contact a {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-decoration: none;
+  color: #fff;
+  font-size: 1rem;
+  font-family: f2;
+  text-shadow: 1.5px 1.5px 0 #ff3c00;
+}
+section.tpage1 header .bottom .contact .sc-1 {
+  position: absolute;
+  width: 2rem;
+  height: 1.5rem;
+  top: -1.5rem;
+  -o-object-fit: cover;
+     object-fit: cover;
+  left: 1vw;
+}
+section.tpage1 header .bottom .contact .sc-2 {
+  position: absolute;
+  width: 2rem;
+  height: 1.5rem;
+  top: -1.5rem;
+  -o-object-fit: cover;
+     object-fit: cover;
+  right: 1vw;
+}
+section.tpage1 header .lalten-container {
+  position: absolute;
+  top: 0rem;
+  left: 1rem;
+}
+section.tpage1 header .lalten-container img {
+  width: 12%;
+  animation: swing 3s ease-in-out infinite;
+  transform-origin: 50% 0%;
+}
+section.tpage1 .hero {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+}
+section.tpage1 .hero .top {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+section.tpage1 .hero .top img {
+  width: 55%;
+  z-index: 10;
+  margin-top: -3rem;
+}
+
+section.tpage2 {
+  height: 100%;
+  width: 100%;
+  background: url(/media/timelinebg-2.jpg) no-repeat center center/cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+section.tpage2 .cover {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.766);
+  z-index: 1;
+}
+section.tpage2 h1 {
+  font-family: f2;
+  color: white;
+  text-shadow: 1.5px 1.5px 0 #ff3c00;
+  text-align: center;
+  font-size: 3rem;
+  text-transform: uppercase;
+  text-align: center;
+  width: -moz-fit-content;
+  width: fit-content;
+  z-index: 10;
+}
+
+section.cpage1 {
+  height: 100vh;
+  width: 100%;
+  background: url(/media/contactbg.jpg) no-repeat center center/cover;
+  overflow: hidden;
+  position: relative;
+}
+section.cpage1 .cover {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.766);
+  z-index: 1;
+}
+section.cpage1 header {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  z-index: 10;
+}
+section.cpage1 header .top {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+section.cpage1 header .bottom {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 1.5rem;
+  z-index: 10;
+}
+section.cpage1 header .bottom .home {
+  position: relative;
+}
+section.cpage1 header .bottom .home .m1 {
+  width: 10rem;
+  height: 2.5rem;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+section.cpage1 header .bottom .home a {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-decoration: none;
+  color: #fff;
+  font-size: 1rem;
+  font-family: f2;
+  text-shadow: 1.5px 1.5px 0 #ff3c00;
+}
+section.cpage1 header .bottom .home .sh-1 {
+  position: absolute;
+  width: 2rem;
+  height: 1.5rem;
+  top: -1.5rem;
+  -o-object-fit: cover;
+     object-fit: cover;
+  left: 1vw;
+}
+section.cpage1 header .bottom .home .sh-2 {
+  position: absolute;
+  width: 2rem;
+  height: 1.5rem;
+  top: -1.5rem;
+  -o-object-fit: cover;
+     object-fit: cover;
+  right: 1vw;
+}
+section.cpage1 header .bottom .tl {
+  position: relative;
+}
+section.cpage1 header .bottom .tl .m2 {
+  width: 10rem;
+  height: 2.5rem;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+section.cpage1 header .bottom .tl a {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-decoration: none;
+  color: #fff;
+  font-size: 1rem;
+  font-family: f2;
+  text-shadow: 1.5px 1.5px 0 #ff3c00;
+}
+section.cpage1 header .bottom .tl .st-1 {
+  position: absolute;
+  width: 2rem;
+  height: 1.5rem;
+  top: -1.5rem;
+  -o-object-fit: cover;
+     object-fit: cover;
+  left: 1vw;
+}
+section.cpage1 header .bottom .tl .st-2 {
+  position: absolute;
+  width: 2rem;
+  height: 1.5rem;
+  top: -1.5rem;
+  -o-object-fit: cover;
+     object-fit: cover;
+  right: 1vw;
+}
+section.cpage1 header .bottom .guests {
+  position: relative;
+}
+section.cpage1 header .bottom .guests .m3 {
+  width: 10rem;
+  height: 2.5rem;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+section.cpage1 header .bottom .guests a {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-decoration: none;
+  color: #fff;
+  font-size: 1rem;
+  font-family: f2;
+  text-shadow: 1.5px 1.5px 0 #ff3c00;
+}
+section.cpage1 header .bottom .guests .sg-1 {
+  position: absolute;
+  width: 2rem;
+  height: 1.5rem;
+  top: -1.5rem;
+  -o-object-fit: cover;
+     object-fit: cover;
+  left: 1vw;
+}
+section.cpage1 header .bottom .guests .sg-2 {
+  position: absolute;
+  width: 2rem;
+  height: 1.5rem;
+  top: -1.5rem;
+  -o-object-fit: cover;
+     object-fit: cover;
+  right: 1vw;
+}
+section.cpage1 header .bottom .sponsors {
+  position: relative;
+}
+section.cpage1 header .bottom .sponsors .m4 {
+  width: 10rem;
+  height: 2.5rem;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+section.cpage1 header .bottom .sponsors a {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-decoration: none;
+  color: #fff;
+  font-size: 1rem;
+  font-family: f2;
+  text-shadow: 1.5px 1.5px 0 #ff3c00;
+}
+section.cpage1 header .bottom .sponsors .ss-1 {
+  position: absolute;
+  width: 2rem;
+  height: 1.5rem;
+  top: -1.5rem;
+  -o-object-fit: cover;
+     object-fit: cover;
+  left: 1vw;
+}
+section.cpage1 header .bottom .sponsors .ss-2 {
+  position: absolute;
+  width: 2rem;
+  height: 1.5rem;
+  top: -1.5rem;
+  -o-object-fit: cover;
+     object-fit: cover;
+  right: 1vw;
+}
+section.cpage1 header .bottom .faq {
+  position: relative;
+}
+section.cpage1 header .bottom .faq .m5 {
+  width: 10rem;
+  height: 2.5rem;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+section.cpage1 header .bottom .faq a {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-decoration: none;
+  color: #fff;
+  font-size: 1rem;
+  font-family: f2;
+  text-shadow: 1.5px 1.5px 0 #ff3c00;
+}
+section.cpage1 header .bottom .faq .sf-1 {
+  position: absolute;
+  width: 2rem;
+  height: 1.5rem;
+  top: -1.5rem;
+  -o-object-fit: cover;
+     object-fit: cover;
+  left: 1vw;
+}
+section.cpage1 header .bottom .faq .sf-2 {
+  position: absolute;
+  width: 2rem;
+  height: 1.5rem;
+  top: -1.5rem;
+  -o-object-fit: cover;
+     object-fit: cover;
+  right: 1vw;
+}
+section.cpage1 header .bottom .contact {
+  position: relative;
+}
+section.cpage1 header .bottom .contact .m6 {
+  width: 10rem;
+  height: 2.5rem;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+section.cpage1 header .bottom .contact a {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-decoration: none;
+  color: #fff;
+  font-size: 1rem;
+  font-family: f2;
+  text-shadow: 1.5px 1.5px 0 #ff3c00;
+}
+section.cpage1 header .bottom .contact .sc-1 {
+  position: absolute;
+  width: 2rem;
+  height: 1.5rem;
+  top: -1.5rem;
+  -o-object-fit: cover;
+     object-fit: cover;
+  left: 1vw;
+}
+section.cpage1 header .bottom .contact .sc-2 {
+  position: absolute;
+  width: 2rem;
+  height: 1.5rem;
+  top: -1.5rem;
+  -o-object-fit: cover;
+     object-fit: cover;
+  right: 1vw;
+}
+section.cpage1 header .lalten-container {
+  position: absolute;
+  top: 0rem;
+  left: 1rem;
+}
+section.cpage1 header .lalten-container img {
+  width: 12%;
+  animation: swing 3s ease-in-out infinite;
+  transform-origin: 50% 0%;
+}
+section.cpage1 .hero {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+}
+section.cpage1 .hero .top {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+section.cpage1 .hero .top img {
+  width: 55%;
+  z-index: 10;
+  margin-top: -3rem;
+}
+
+section.cpage2 {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 4rem;
+  padding: 4rem;
+  background: url(/media/contectbg-2.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  position: relative;
+}
+section.cpage2 .cover {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.766);
+  z-index: 1;
+}
+section.cpage2 h1 {
+  font-size: 3rem;
+  font-family: f2;
+  text-shadow: 1.5px 1.5px 0 #ff3c00;
+  color: white;
+  z-index: 10;
+}
+section.cpage2 form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+  width: 40%;
+  z-index: 10;
+  background-color: rgba(255, 255, 255, 0.312);
+  backdrop-filter: blur(4px);
+  padding: 2rem;
+  border-radius: 1rem;
+}
+section.cpage2 form input, section.cpage2 form textarea {
+  width: 100%;
+  padding: 0.75rem;
+  border-radius: 5px;
+  border: none;
+  background-color: rgba(255, 255, 255, 0.312);
+  backdrop-filter: blur(4px);
+  color: white;
+  font-family: f2;
+  font-size: 1rem;
+}
+section.cpage2 form input::-moz-placeholder, section.cpage2 form textarea::-moz-placeholder {
+  color: black;
+  opacity: 0.7;
+  font-family: f2;
+}
+section.cpage2 form input::placeholder, section.cpage2 form textarea::placeholder {
+  color: black;
+  opacity: 0.7;
+  font-family: f2;
+}
+section.cpage2 form button {
+  padding: 0.75rem 2rem;
+  border-radius: 5px;
+  border: none;
+  background-color: #ff3c00;
+  color: white;
+  font-family: f2;
+  text-shadow: 1.5px 1.5px 0 #000000;
+  font-size: 1rem;
+  cursor: pointer;
+}
+section.cpage2 form button:hover {
+  background-color: #e63600;
 }/*# sourceMappingURL=style.css.map */
