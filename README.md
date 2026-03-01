@@ -64,16 +64,24 @@ Check out the full design, animations, and interactive elements live in your bro
 ## 📂 Repository Structure
 MncrftHack/
 │
-├── index.html
-├── style.css
-├── script.js
-├── sponser.html
-├── assets/
-│ ├── images/
-│ ├── logos/
-│ └── textures/
-├── fonts/
+├── .vscode/              # VS Code config
+├── fonts/                # Custom fonts
+├── media/                # Images, textures, assets
+│
+├── index.html            # Main landing page
+├── contact.html          # Contact page
+├── faq.html              # FAQ page
+├── guests.html           # Guest section
+├── sponsor.html          # Sponsor page
+├── timeline.html         # Timeline page
+│
+├── style.scss            # Main SCSS source file
+├── style.css             # Compiled CSS
+├── style.css.map         # CSS source map
+│
+├── app.js                # Main JavaScript file
 ├── README.md
+└── .gitignore
 
 
 ---
